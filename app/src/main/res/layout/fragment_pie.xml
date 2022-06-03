@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PieFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <org.eazegraph.lib.charts.PieChart
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/piechart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/Rajasthan"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajasthan"
+                    android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp">
+
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/Bangalore"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bangalore"
+                    android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp">
+
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/Mumbai"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mumbai"
+                    android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp">
+
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/Gujarat"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gujarat"
+                    android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

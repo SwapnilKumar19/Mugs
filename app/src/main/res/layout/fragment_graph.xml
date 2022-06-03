@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphFragment">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/janBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="Jan" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/febBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="FEB" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/marBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="MAR" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/aprBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="APR" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mayBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="MAY" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/junBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="JUN" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/julBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="JUL" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/augBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="AUG" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sepBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="SEP" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/octBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="OCT" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/novBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="NOV" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/decBtn"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="DEC" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphXY"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

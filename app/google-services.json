@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "990992264433",
+    "firebase_url": "https://chitchat-1907-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chitchat-1907",
+    "storage_bucket": "chitchat-1907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990992264433:android:b40deb0bcb65789b588d50",
+        "android_client_info": {
+          "package_name": "com.androiddev.chitchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990992264433-eap7dnuj19s5saq94o77n5nei3n1jlg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBftrF2hGEmqX8cp6VDyK3N6AGa77fDwa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990992264433-eap7dnuj19s5saq94o77n5nei3n1jlg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990992264433:android:a246280f712a4143588d50",
+        "android_client_info": {
+          "package_name": "com.androiddev.mugs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990992264433-eap7dnuj19s5saq94o77n5nei3n1jlg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBftrF2hGEmqX8cp6VDyK3N6AGa77fDwa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990992264433-eap7dnuj19s5saq94o77n5nei3n1jlg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
